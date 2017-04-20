@@ -69,9 +69,20 @@
 </div>
 
 <!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD0OZB2nSgXe0jKxCRRh87mHlWG-EsYWy8",
+    authDomain: "closapp-e0c5f.firebaseapp.com",
+    databaseURL: "https://closapp-e0c5f.firebaseio.com",
+    projectId: "closapp-e0c5f",
+    storageBucket: "closapp-e0c5f.appspot.com",
+    messagingSenderId: "450111587671"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <script src="main.js"></script>
 </body>
